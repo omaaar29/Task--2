@@ -1,0 +1,25 @@
+{
+    double X, Y;
+    printf("enter the value of X and Y:");
+    scanf("%lf %lf", &X, &Y);
+
+    double summation, substitution, multiple, division, modulus ;
+
+    summation= X + Y;
+   substitution= X - Y;
+    multiple= X * Y;
+    division= X/Y;
+    modulus= (int) X %(int) Y;
+
+    printf("sum=%lf\n", summation);
+   printf("sub=%lf\n", substitution);
+    printf("multiple=%lf\n", multiple);
+    printf("division=%lf\n", division);
+   printf("modulus=%lf\n", modulus);
+
+
+
+   
+
+    return 0;
+}
