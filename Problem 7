@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    double cm;
+   float m, km;
+    
+    printf("Enter length in cm:");
+    scanf("%lf", &cm);
+    
+    m =  cm/100;
+    km = m/1000;
+    
+    printf("length in m=%.2f\n", m);
+    printf("length in km=%.3f", km);
+    
+    return 0;
+}
