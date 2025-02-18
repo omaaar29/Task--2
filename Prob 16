@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() 
+{
+    int math, Arabic, English,physics ,chem ,total;
+    
+    double avg, percentage;
+    printf("Enter the maths degree:");
+    scanf("%d", &math);
+
+    printf("Enter the Arabic degree:");
+    scanf("%d", &Arabic);
+    
+    printf("Enter the English degree:");
+    scanf("%d", &English);
+    
+    printf("Enter the physics degree:");
+    scanf("%d", &physics);
+    
+    printf("Enter the chem degree:");
+    scanf("%d", &chem);
+    
+    total = Arabic + chem + English + math + physics;
+    
+     avg = total/5;
+    
+   percentage = ( total / 500) * 100;
+    
+    
+    printf("sum=%d\n",total);
+    printf("avg=%.2lf\n",avg);
+    printf("percentage=%lf",percentage);
+}
