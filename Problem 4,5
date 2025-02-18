@@ -2,16 +2,23 @@
 
 int main()
 {
-    float width, length, perimeter;
+    float width, length, perimeter, area;
     
     printf("Enter width: ");
     scanf("%f", &width);
     
     printf("Enter length: ");
     scanf(" %f", &length);
-    
+
+   //problem 4
     perimeter= 2 * (width + length);
-    printf("perimeter=%f",
+  //problemn5
+    area = width * length ;
+    
+    printf("perimeter of the rectangle=%.2f\n",
     perimeter);
+    printf("area of the rectangle=%.2f",
+    area);
     
     return 0;
+}
